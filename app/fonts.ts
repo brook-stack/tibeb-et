@@ -1,19 +1,18 @@
-import { Inter, Playfair_Display, Raleway } from 'next/font/google'
+import { Space_Grotesk, Inter, Montserrat } from 'next/font/google'
+
+export const spaceGrotesk = Space_Grotesk({
+	subsets: ['latin'],
+	display: 'swap',
+	variable: '--font-space-grotesk',
+})
 
 export const inter = Inter({
 	subsets: ['latin'],
+	display: 'swap',
 	variable: '--font-inter',
 })
 
-export const playfairDisplayItalic = Playfair_Display({
+export const montserrat = Montserrat({
 	subsets: ['latin'],
-	variable: '--font-playfair-italic',
-	weight: ['400', '500', '600', '700', '800', '900'],
-	style: ['italic'],
-})
-
-export const raleway = Raleway({
-	subsets: ['latin'],
-	variable: '--font-raleway',
-	weight: ['300', '400', '500', '600', '700', '800', '900'],
+	variable: '--font-montserrat',
 })
