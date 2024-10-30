@@ -21,8 +21,6 @@
 }
 
 .logo {
-	font-family: var(--font-playfair-italic);
-	font-family: var(--font-space-grotesk);
 	font-weight: 700;
 	font-size: 1.5rem;
 	font-weight: 900;
@@ -34,7 +32,6 @@
 }
 
 .highlight {
-	font-family: var(--font-playfair-italic);
 	color: var(--primary-500);
 	margin-left: 4px;
 }
@@ -200,7 +197,17 @@
 	background: var(--primary-600);
 }
 
-@media (max-width: 768px) {
+.homeLink {
+	display: none;
+}
+
+@media (min-width: 455px) {
+	.homeLink {
+		display: inline;
+	}
+}
+
+@media (max-width: 868px) {
 	.desktopMenu {
 		display: none;
 	}

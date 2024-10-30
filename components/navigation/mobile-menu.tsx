@@ -28,15 +28,15 @@ export default function MobileMenu() {
 					montserrat.className
 				}`}
 			>
-				{/* <Link
+				<Link
 					href='/'
-					className={`${styles.mobileLink} ${
+					className={`${styles.mobileLink} ${styles.homeLink} ${
 						isActive('/') ? styles.active : ''
 					}`}
 					onClick={() => setIsOpen(false)}
 				>
 					Home
-				</Link> */}
+				</Link>
 				<Link
 					href='/about'
 					className={`${styles.mobileLink} ${
@@ -73,7 +73,7 @@ export default function MobileMenu() {
 				>
 					Contact
 				</Link>
-				<button className={styles.mobileCta}>Get Started</button>
+				<button className={styles.mobileCta}>Start Investing</button>
 			</div>
 		</>
 	)

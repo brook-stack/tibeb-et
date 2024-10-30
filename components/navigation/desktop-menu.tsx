@@ -50,7 +50,7 @@ export default function NavLinks() {
 			>
 				Contact
 			</Link>
-			<button className={styles.ctaButton}>Get Started</button>
+			<button className={styles.ctaButton}>Get Registered</button>
 		</div>
 	)
 }
